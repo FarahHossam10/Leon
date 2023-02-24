@@ -9,6 +9,20 @@
 body{
     font-family: "Work Sans" , sans-serif;
 }
+/* in common styling */
+.faded-heading{
+    color: #ebeced;
+    font-size: 6.25rem;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: -3px;
+}
+.faded-heading + p{
+    text-align: center;
+    color: #797979;
+    margin-top: -30px;
+    font-size: 1.25rem;
+}   
 /* nav bar styling */
 nav{
     display: flex;
@@ -96,6 +110,9 @@ header #header-inner-text p{
     line-height: 1.8;
 }
 /* features section styling */
+.head-text{
+    margin-bottom: 2%;
+}
 #features-section{
     background-color: #f6f6f6;
     display: flex;
@@ -120,6 +137,84 @@ header #header-inner-text p{
     color: #777;
     font-size: 1rem;
 }
+/* services section styling */
+#services-body{
+    display: flex;
+    margin-bottom: 5%;
+    padding: 2%;
+}
+#services-divs{
+    display: grid;
+    grid-template-columns: repeat(2 , 47%);   
+    gap: 50px;
+    padding: 4%;
+}
+#services-divs .service{
+    display: flex;
+}
+#services-divs .service i{
+    color: #10cab7;
+    font-size: 2rem;
+    margin-right: 5%;
+}
+#services-divs .service .service-text h3{
+    margin: 0 0 30px 0;
+}
+#services-divs .service .service-text p{
+    color: #444;
+    font-weight: 300;
+    line-height: 1.6;
+}
+#services-body #services-image-div{
+    position: relative;
+    text-align: center;
+    padding: 5%;
+}
+#services-body #services-image-div img{
+    width: 260px;
+}
+#services-body #services-image-div::before{
+    content: "";
+    background-color: #2c4755;
+    width: 100px;
+    height: 450px;
+    top: 5px;
+    position: absolute;
+    right: 15px;
+    z-index: -1;
+    margin-right: 3%;
+}
+/* portfolio section styling */
+#portfolio-section .head-text{
+    margin-bottom: 7%;
+}
+#portfolio-section{
+    background-color: #f6f6f6;
+    padding: 5%;
+    margin-bottom: 5%;
+}
+#portfolio-section #portfolio-divs{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+#portfolio-section #portfolio-divs .portfolio-project{
+    width: 70%;
+    background-color: white;
+}
+#portfolio-section #portfolio-divs .portfolio-project img{
+    width: 100%;
+}
+#portfolio-section #portfolio-divs .portfolio-project .project-text{
+    padding: 5%;
+}
+#portfolio-section #portfolio-divs .portfolio-project .project-text p{
+    color: #777;
+    line-height: 1.6;
+    margin-top: 3%;
+}
+
+
 
 
 
