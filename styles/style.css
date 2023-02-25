@@ -13,7 +13,7 @@ body{
 /* in common styling */
 .faded-heading{
     color: #ebeced;
-    font-size: 6.25rem;
+    font-size: calc(3.5rem + 5vw);
     text-align: center;
     font-weight: 800;
     letter-spacing: -3px;
@@ -21,7 +21,7 @@ body{
 .faded-heading + p{
     text-align: center;
     color: #797979;
-    margin-top: -30px;
+    margin-top: -33px;
     font-size: 1.25rem;
 }   
 /* nav bar styling */
@@ -291,7 +291,7 @@ header #header-inner-text p{
     margin-bottom: 15px;
 }
 #contact-section #contact-text .contact-link{
-    font-size: 2.2rem;
+    font-size: calc(1rem + 2vw);
     font-weight: 800;
     color:#10cab7;
     text-decoration: none;
